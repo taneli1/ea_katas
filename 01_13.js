@@ -18,7 +18,7 @@ const numArr = (len) => {
 // Check if target can be consecutively summed starting from param number from
 const canConsecutiveSum = (target, from) => {
   let sum = 0
-  for (let i = from; sum < target; i++) {
+  for (let i = from; sum <= target; i++) {
     sum += i
     if (sum === target) {
       return true
@@ -27,7 +27,7 @@ const canConsecutiveSum = (target, from) => {
   return false
 }
 
-console.log(consecutiveSum(65))
+console.log(consecutiveSum(3))
 console.log(consecutiveSum(9))
 console.log(consecutiveSum(10))
 console.log(consecutiveSum(64))
