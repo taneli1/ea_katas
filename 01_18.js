@@ -16,7 +16,7 @@ const replaceVowel = (string) => {
   return str
 }
 
-console.log(replaceVowel("karAchi"))
+console.log(replaceVowel("kaaaaaaaaarAchi"))
 console.log(replaceVowel("chEmBur"))
 console.log(replaceVowel("khandbari"))
 console.log(replaceVowel("LexiCAl"))
