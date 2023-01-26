@@ -1,5 +1,5 @@
 const happyAlgorithm = (num, arr = []) => {
-  if (arr.includes(num)) return `SAD ${arr.length - arr.indexOf(num)}`
+  if (arr.includes(num)) return `SAD ${arr.length}`
 
   const total = [...num.toString()]
     .map((str) => parseInt(str) * parseInt(str))
